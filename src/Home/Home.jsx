@@ -1,7 +1,6 @@
 import './Home.css'
 import { useState } from 'react'
 import {section, client} from '../Item'
-import  Person from '../video/Person.mp4'
 import  people1 from '../images/people1.jpg'
 import  people2 from '../images/people2.jpg'
 import  people3 from '../images/people3.jpg'
@@ -54,7 +53,7 @@ function Home(){
         
       </div>
      <video  className='video' controls>
-      <source src={Person} type='video/mp4'/>
+      <source src='/video/Person.mp4' type='video/mp4'/>
       </video>
       
 

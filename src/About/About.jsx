@@ -1,7 +1,6 @@
 import "./About.css" 
 import  Event from '../images/Event.jpg'
 import { useState } from 'react'
-import  Person from '../video/Person.mp4'
 import {client} from '../Item'
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'
 
@@ -52,7 +51,7 @@ function About(){
                </div>
 
                <video  className='video' controls>
-                     <source src={Person} type='video/mp4'/>
+                     <source src='/video/Person.mp4' type='video/mp4'/>
                      </video>
 
             <div className="message">
