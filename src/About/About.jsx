@@ -50,14 +50,11 @@ function About(){
                  </div>
                </div>
 
-               <video  className='video' controls>
-                     <source src='/video/Person.mp4' type='video/mp4'/>
-                     </video>
-
             <div className="message">
               <div className="mes">
                 <h1>Designing Seamless Moments, Every Time</h1>
-                 <button>Kindly Drop Message</button>
+                 <button>
+                  <Link to='/Contact'>Kindly Drop Message </Link></button>
               </div>
             </div>
     </div>

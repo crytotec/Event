@@ -6,16 +6,6 @@
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [
-    {
-      "src": "/video/(.*)",
-      "dest": "/video/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }

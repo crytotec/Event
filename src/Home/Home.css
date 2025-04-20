@@ -78,13 +78,6 @@ h1{
     padding: 10px;
 }
 
-.video{
-    width: 100%;
-    padding: 10px;
-    background-color: #b1b1b1ee;
-    height: 500px;
-}
-
 .aboutsection{
     display: flex;
     justify-content: space-around;
@@ -196,9 +189,9 @@ h1{
     justify-content: space-around;
     padding: 20px;
     margin: 4px;
-   width: 600px;  
-   height: 100px; 
-   line-height: 1.5;
+    width: 1000px;  
+    height: 100px; 
+    line-height: 1.5;
 }
 .textset p{
     padding: 40px;  
@@ -265,12 +258,6 @@ img{
     padding: 10px;
 }
 
-.video{
-    width: 100%;
-    padding: 10px;
-    background-color: #b1b1b1ee;
-    height: 300px;
-}
 
 .aboutsection{
     display: grid;
@@ -496,13 +483,6 @@ img{
     }
     .description{
         padding: 10px;
-    }
-    
-    .video{
-        width: 100%;
-        padding: 10px;
-        background-color: #b1b1b1ee;
-        height: 300px;
     }
     
     .aboutsection{

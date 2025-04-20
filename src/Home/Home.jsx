@@ -52,10 +52,6 @@ function Home(){
         </div>
         
       </div>
-     <video  className='video' controls>
-      <source src='/video/Person.mp4' type='video/mp4'/>
-      </video>
-      
 
       <div className='aboutsection'>
          <img src={people3}/>
