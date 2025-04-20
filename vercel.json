@@ -3,16 +3,19 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"  
-      }
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
+      "src": "/video/(.*)",
+      "dest": "/video/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.html"  
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
