@@ -78,7 +78,7 @@ const handleSubmit = (e) =>{
           placeholder='Name'
         />
 
-       <label htmlFor='Event'>Event Title:</label>
+       <label className='event' htmlFor='Event'>Event Title:</label>
         <select
           name='Title'
           value={guest.Title}
