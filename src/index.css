@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.5em;
+     color: rgb(48, 51, 53);  
+     font-family: 'Roboto', sans-serif;
+ 
+}
+h3{
+    font-size: 1.1em;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+
+}

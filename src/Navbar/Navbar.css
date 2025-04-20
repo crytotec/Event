@@ -1,0 +1,247 @@
+.navbar{
+   width:100%;
+   height: 100px;
+   background-color: #ffffff;
+   z-index: 20;
+}
+
+.component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:10px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.faceback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 230);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.facebook{
+    color: #ffffff; 
+    font-size:1.5em;
+}
+.twitterback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(117, 117, 201);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    color: #ffffff;
+    font-size:1.5em;
+
+}
+
+.youtubeback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 16, 16);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.youtube{
+    color: #ffffff;
+    font-size:1.5em;
+
+}
+
+.instagramback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.instagram{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.logo{
+    color: rgb(194, 36, 36);
+    font-size: 2.6em;
+    font-weight: bolder;
+    
+}
+button{
+    background-color:rgb(187, 33, 33) ;
+    border-radius: 5%;
+    display: flex;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+button.hover{
+    background-color: #ffffff;
+    color: rgb(187, 33, 33);
+}
+
+ul{
+    display: block;
+    position: relative;
+    top: 100px;
+    z-index: 30;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(194, 36, 36);
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    height: 300px;
+    margin-bottom: 10px;
+    animation:slide-in 1s  ;
+}
+
+li{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+@keyframes slide-in{
+    from{transform: translateY(100px)}
+    to{transform: translateY(0%)}
+}
+
+.Link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.Link:hover{
+    background-color: rgba(129, 124, 124, 0.89);
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.1s;
+}
+@media (max-width: 768px) {
+    
+     
+     .component{
+         gap:30px;
+         cursor: pointer;
+         margin: 10px;
+         padding: 20px;
+         align-items: center;
+     }
+     .list{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         gap: 10px;
+     }
+     .faceback{
+         width: 15px;
+         height: 15px;
+     }
+     .facebook{
+         color: #ffffff; 
+         font-size:1.0em;
+     }
+     .twitterback{
+         width: 15px;
+         height: 15px;
+     }
+     .twitter{
+         color: #ffffff;
+         font-size:1.0em;
+     
+     }
+     
+     .youtubeback{
+         width: 15px;
+         height: 15px;
+     }
+     .youtube{
+         color: #ffffff;
+         font-size:1.0em;
+     
+     }
+     
+     .instagramback{
+         width: 15px;
+         height: 15px;
+     }
+     
+     .instagram{
+         color: #ffffff;
+         font-size: 1.0em;
+     }
+     .logo{
+         color: rgb(194, 36, 36);
+         font-size: 1.3em;
+         font-weight: bolder;
+         
+     }
+     button{
+         font-size: 0.6em;
+     }
+     button.hover{
+         background-color: #ffffff;
+         color: rgb(187, 33, 33);
+     }
+     
+     ul{
+        display: block;
+    position: relative;
+    top: 100px;
+    z-index: 30;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(194, 36, 36);
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    height: 300px;
+    margin-bottom: 10px;
+    animation:slide-in 1s;
+     }
+     
+     li{ display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: #ffffff;
+         list-style: none;
+         margin: auto;
+         cursor: pointer;
+         padding: 10px;
+     }
+     
+     
+     
+    
+}
