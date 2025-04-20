@@ -179,7 +179,17 @@
         height: 500px;
     }
 
-   
+    .about{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: center;
+        align-content: center;
+        margin:0 -75px;
+        width: 100%;
+        gap:90px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .about img{
         margin-left: 20px;
         margin-right: -100px;
@@ -254,7 +264,7 @@
     }
     .mes h1{
         font-size: 0.9em;
-        text-wrap: nowrap;
+        text-wrap: wrap;
         margin: 20px auto;
         color:rgb(230, 18, 18);
         font-weight: bolder;

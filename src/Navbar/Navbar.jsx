@@ -69,7 +69,7 @@ function Navbar() {
                    
                 </li>
                 <li onClick={Handleclick}>
-                    <Link className='Link' to='/About'>
+                    <Link className='Link' to="/About">
                     About
                     </Link>
                 </li>

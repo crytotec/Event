@@ -2,6 +2,7 @@ import "./About.css"
 import  Event from '../images/Event.jpg'
 import { useState } from 'react'
 import {client} from '../Item'
+import { Link } from 'react-router-dom';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'
 
 function About(){

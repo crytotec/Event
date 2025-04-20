@@ -142,7 +142,7 @@ li{ display: flex;
 
 .Link:hover{
     background-color: rgba(129, 124, 124, 0.89);
-    width: 100px;
+    width: 350px;
     text-align: center;
     transition-duration: 0.1s;
 }
